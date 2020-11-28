@@ -1,5 +1,6 @@
 body{
-    background-color: lightgray;
+    background-image: url(0729_drevodekor_orech_b.jpg);
+    background-size: cover;
 }
 .oldal{
     display: flex;
@@ -15,6 +16,15 @@ body{
     border-left: 10px solid brown;
     border-right: 10px solid brown;
     padding: 15px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 2em;
+    color: brown;
 }
 .tartalom{
     background-color: burlywood;
