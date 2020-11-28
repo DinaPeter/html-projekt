@@ -25,6 +25,10 @@ a:hover{
     font-size: 1.5em;
     color: brown;
 }
+a:active{
+    font-size: 1.5em;
+    color: brown;
+}
 .tartalom{
     background-color: burlywood;
     margin: auto;
