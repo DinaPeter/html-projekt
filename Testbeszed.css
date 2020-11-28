@@ -1,0 +1,31 @@
+body{
+    background-color: lightgray;
+}
+.oldal{
+    display: flex;
+    flex-flow: wrap;
+    width: 1000px;
+    margin: auto;
+}
+.menu{
+    background-color: burlywood;
+    width: 900px;
+    margin: auto;
+    border-top: 10px solid brown;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    padding: 15px;
+}
+.tartalom{
+    background-color: burlywood;
+    margin: auto;
+    border-bottom: 10px solid brown;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    width: 900px;
+    padding: 15px;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
