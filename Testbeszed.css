@@ -16,7 +16,6 @@ body{
     border-right: 10px solid brown;
     padding: 15px;
     font-size: 20px;
-    height: 0px;
 }
 a{
     text-decoration: none;
@@ -44,10 +43,54 @@ h1{
 }
 img{
   width: 200px;
+  height: auto;
+}.idezet:hover{
+    font-weight: bold;
 }
 .idezet{
     text-align: center;
     width: 300px;
     margin: auto;
     font-style: italic;
+}
+#sor{
+    text-align: center;
+}
+table>td{
+    width: 300px;
+}
+table>tr{
+    width: 300px;
+}
+@media screen and (max-width:576px){
+    .oldal{
+        width: 500px;
+    }
+    .menu{
+        width: 400px;
+    }
+    .tartalom{
+        width: 400px;
+    }
+    table{
+        width: 400px;
+        margin: auto;
+    }table>td{
+        width: 300px;
+    }
+    table>tr{
+        width: 300px;
+    }
+    img{
+        width: 100px;
+        height: auto;
+      }
+}
+@media screen and (max-width:1200px){
+    .menu{
+        width: 700px;
+    }
+    .tartalom{
+        width: 700px;
+    }
 }
