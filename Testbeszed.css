@@ -16,6 +16,7 @@ body{
     border-right: 10px solid brown;
     padding: 15px;
     font-size: 20px;
+    height: 0px;
 }
 a{
     text-decoration: none;
@@ -39,9 +40,14 @@ a:active{
     padding: 15px;
 }
 h1{
-    padding-top: 10px;
     text-align: center;
 }
 img{
   width: 200px;
+}
+.idezet{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-style: italic;
 }
