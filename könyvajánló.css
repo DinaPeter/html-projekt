@@ -45,3 +45,39 @@ h1{
 p{
     padding: 10px;
 }
+@media screen and (max-width:576px){
+    .oldal{
+        width: 400px;
+    }
+    .menu{
+        width: 300px;
+    }
+    .tartalom{
+        width: 300px;
+    }
+    table{
+        width: 500px;
+    }table>td{
+        width: 400px;
+    }
+    table>tr{
+        width: 400px;
+    }
+    p{
+        width: 500px;
+    }
+    h1{
+        width: 500px;
+    }
+    footer{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1200px){
+    .menu{
+        width: 700px;
+    }
+    .tartalom{
+        width: 700px;
+    }
+}
