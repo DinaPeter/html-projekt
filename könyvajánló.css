@@ -1,12 +1,11 @@
 body{
-    background-image: url(0729_drevodekor_orech_b.jpg);
-    background-size: cover;
+    background-color: rgb(77, 37, 9);
 }
 .oldal{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 50px);
-    height: 1000px;
+    height: 740px;
 }
 .menu{
     background-color: burlywood;

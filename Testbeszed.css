@@ -1,6 +1,5 @@
 body{
-    background-image: url(0729_drevodekor_orech_b.jpg);
-    background-size: cover;
+    background-color: rgb(77, 37, 9);
 }
 .oldal{
     display: flex;
